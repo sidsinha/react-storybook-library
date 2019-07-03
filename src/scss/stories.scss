@@ -1,0 +1,56 @@
+.storybook{
+  &__demo {
+    overflow: auto;
+    display: table;
+    margin: 0 auto;
+    height: 400px;
+    padding: 10px;
+    & > div, & > span{
+      // vertical-align: middle;
+      // display: table-cell;
+    }
+  }
+  &__info {
+    border: 1px solid #ccc;
+    padding: 20px 50px;
+  }
+  table {
+    border-collapse: collapse;
+    thead {
+      tr th {
+        padding: 2px 6px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(204, 204, 204);
+        border-image: initial;
+      }
+    }
+    tbody{
+        .tbody-d1 {
+          white-space: nowrap;
+          font-family: Monaco, Consolas, "Courier New", monospace;
+          padding: 2px 6px;
+          border-width: 1px;
+          border-style: solid;
+          border-color: rgb(204, 204, 204);
+          border-image: initial;
+       } 
+       .tbody-d2 {
+          padding: 2px 6px;
+          border-width: 1px;
+          border-style: solid;
+          border-color: rgb(204, 204, 204);
+          border-image: initial;
+      }
+    }
+  }
+}
+.displayContainer {
+  margin: 20px;
+  overflow: auto;
+}
+.Pane {
+  label {
+    width: 120px;
+  }
+} 

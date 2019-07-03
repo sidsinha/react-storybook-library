@@ -1,0 +1,15 @@
+$primary-theme-color: #0696d7;
+$primary-theme-hover-color:rgb(102, 191, 233);;
+$white: #fff;
+$offwhite: #f1f1f1;
+$grey: #ccc;
+$font-s: 14px;
+$text-color: #666;
+//Breakpoints
+
+$sm-screen: 420px;
+
+// the :export directive is the magic sauce for webpack
+:export {
+    primaryThemeColor: $primary-theme-color;
+}

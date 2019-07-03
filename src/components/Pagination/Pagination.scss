@@ -1,0 +1,60 @@
+@import "../../scss/_normalizer.scss";
+@import "../../scss/_fontsAkn.scss";
+@import "../../scss/_variables.scss";
+
+nav {
+  text-align: center;
+  font-family: 'ArtifaktElement';
+  font-size: 13px;
+  font-weight: 500;
+}
+ul.react-pagination {
+    margin-top: 0;
+    margin: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    clear: both;
+    display: inline-block;
+    line-height: inherit;
+    
+    li {
+      display: inline;
+     
+
+      a.page-link {
+        padding: 10px 20px;
+        text-align: center;
+        box-shadow: none !important;
+        border-color: $offwhite !important;
+        color: $primary-theme-color;
+        font-weight: 700;
+        text-decoration: none;
+        border-bottom: none;
+        line-height: inherit;
+
+        &:hover{
+          background-color: $offwhite;
+        }
+      }
+    }
+    li.active {
+      a.page-link {
+        color: $white !important;
+        background-color: $primary-theme-color !important;
+        border-color: $offwhite !important;
+      }
+    }
+}
+@media only screen and (max-width: $sm-screen) {
+  nav {
+    font-size: 11px;
+  }
+  ul.pagination {
+    padding: 10px 8px;
+    a.page-link {
+      span.sr-only {
+        display: none;
+      }
+    }
+  }
+}

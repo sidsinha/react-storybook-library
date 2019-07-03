@@ -1,0 +1,50 @@
+@import "../../scss/_variables.scss";
+
+.prevnextlinks {
+    overflow: auto;
+    background: #ccc;
+    color: #444;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    .prevItem, .nextItem{
+        cursor: pointer;
+        &:hover {
+            color: #000;
+        }
+        &.no-cursor {
+            cursor: default;
+        }
+    }
+    .left {
+        float: left;
+        white-space: nowrap; 
+        width: 250px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        position: absolute;
+        left: 0;
+        padding-left: 20px;
+    }
+    .right {
+        float: right;
+        white-space: nowrap;
+        width: 250px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        padding-right: 20px;
+        z-index: 2;
+    }
+    .lt {
+        float: left;
+    }
+    .gt {
+        position: absolute;
+        right: 10px;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,60 @@
+import { createGlobalStyle } from 'styled-components';
+import * as vars from './variables';
+
+export const StyleFlyout = createGlobalStyle`
+    .${vars.prefix}_flyout {
+        display: inline-block;
+        margin-right: 10px;
+
+        .flyout-container {
+            position: relative;
+            padding: 15px 0px;
+
+            .flyout-content {
+                font-size: 14px;
+                color: #666;
+                opacity: 0;
+                display: none;
+                cursor: default;
+                position: absolute;
+                top: 100%;
+                right: -15px;
+                z-index: 100;
+                box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+                -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+                -webkit-transform: translateY(10%);
+                transform: translateY(10%);
+                transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
+                background-color: #fff;
+
+                &.open {
+                    display: block;
+                    opacity: 1;
+                    top: 2.25rem;
+                    -webkit-transform: translateX(0%);
+                    transform: translateX(0%);
+                    transition-delay: 0s;
+                    margin-top: 8px;
+                }
+
+                .menu-triangle {
+                    border-left: 12px solid transparent;
+                    border-right: 12px solid transparent;
+                    border-bottom: 12px solid $white;
+                    position: absolute;
+                    z-index: 2009;
+                    top: -12px;
+                    right: 11px;
+                }
+                .flyout-content-inner {
+                    margin: 10px;
+                    width: 200px;
+                    text-align: left;
+                }
+            }
+        }   
+    }
+`;
+
+export default StyleFlyout;

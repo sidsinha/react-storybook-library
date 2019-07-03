@@ -1,0 +1,13 @@
+.hig__icon-button {
+  margin-left: 10px;
+}
+.hig__icon-button:hover {
+  margin-left: 10px;
+  border: 1px solid #0696d7 !important;
+}
+.hig__icon-button.hig__icon-button--primary.activeDisplay, .hig__icon-button:focus {
+  background: #0696d7 !important;
+}
+.hig__icon-button.hig__icon-button--primary.activeDisplay svg * {
+  fill: #fff !important;
+}

@@ -1,0 +1,15 @@
+@import "../../scss/_normalizer.scss";
+@import "../../scss/_fontsAkn.scss";
+@import "../../scss/_variables.scss";
+
+.__load_image {
+    float: left;
+    overflow: hidden;
+    img {
+        max-width: 100%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

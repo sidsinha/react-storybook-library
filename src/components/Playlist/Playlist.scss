@@ -1,0 +1,64 @@
+@import "../../scss/_variables.scss";
+
+.listing_teaser__playlist{
+    font-size: 14px;
+    width: 275px;
+    border: #666;
+    &__header{
+        background: #666;
+        border: 1px solid #666;
+        position: relative;
+        display: flex;
+        .collection-title {
+            font-weight: bold;
+            margin: 10px;
+            color: $white;
+            line-height: 22px;
+            width: 90%;
+            max-height: 65px;
+            overflow: hidden;
+        }
+    }
+    &__container{
+        border: 1px solid #ccc;
+        max-height: 300px;
+        overflow-y: auto;
+        position: relative;
+        p.title {
+            margin: 0;
+            padding: 15px 15px;
+            border-left: 5px solid transparent;
+            &:hover, &.active {
+                color: $primary-theme-color;
+                cursor: pointer;
+                border-left: 5px solid $primary-theme-color;
+            }
+            .externalicon-playlist {
+                margin-left: 10px;
+            }
+        }
+        svg * {
+            fill: #fff; 
+        }
+    }
+    &__footer {
+        background: #ccc;
+        color: #000;
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #ccc;
+
+        &_lt {
+            float: left;
+            position: relative;
+            bottom: 2px;
+            cursor: pointer;
+        }
+        &_gt {
+            float: right;
+            position: relative;
+            bottom: 2px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "status": "Success",
+    "totalResult": "8",
+    "entries": {
+        "item": [
+            {
+                "id": 1,
+                "isInternal": true,
+                "nodeId": 190266,
+                "source": "simplecontent",
+                "caasKey": "caas/CloudHelp/cloudhelp/2016/ENU/Max-Python-API/files/GUID-E51F1808-8FD6-41A0-AA11-A92438CE6E3C-htm.html",
+                "shortDescription": "Using Unicode In Python 2.x, the default encoding is ASCII. However, ASCII encoding cannot always represent non-English languages (for example, accents in French, or Asian characters), or arbitrary text input (for example, music notes). The Unicode encoding method assigns a unique number to represent each character of every language. It can be implemented by different character encodings, the more commonly used being UTF-8 and UTF-16",
+                "title": "Recent Files screen and File menu in Revit",
+                "publishDate": "2014-11-02 00:00:00",
+                "thumbnailURL": "https://knowledge-dev.autodesk.com/sites/default/files/getting-started/basicTasksEveryone.png",
+                "contentUrl": "https://knowledge-staging.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Max-Python-API/files/GUID-E51F1808-8FD6-41A0-AA11-A92438CE6E3C-htm.html",
+                "articleTopics": "Add Building Elements,Add Interior Elements,Present the model"
+            },
+            {
+                "id": 2,
+                "isInternal": true,
+                "nodeId": 152026,
+                "source": "sfdcarticles",
+                "caasKey": "caas/simplecontent/content/building-E2-80-94coordi…0-94create-federated-model-through-the-cloud.html",
+                "shortDescription": "Asian characters), or arbitrary text input (for example, music notes). The Unicode encoding method assigns a unique number to represent each character of every language. It can be implemented by different character encodings, the more commonly used being UTF-8 and UTF-16",
+                "title": "Using Unicode",
+                "publishDate": "2015-03-13 00:00:00",
+                "thumbnailURL": "https://knowledge-dev.autodesk.com/sites/default/files/getting-started/basicTasksMEP.png",
+                "contentUrl": "https://knowledge-staging.autodesk.com/support/3ds-max/troubleshooting/caas/sfdcarticles/sfdcarticles/ASCII-file-formats-supported-by-character-studio.html"
+            },
+            {
+                "id": 3,
+                "isInternal": false,
+                "nodeId": 188651,
+                "source": "simplecontent",
+                "caasKey": "caas/simplecontent/content/building-E2-80-94collab…cloud-based-models-designed-different-trades.html",
+                "shortDescription": "Using Unicode In Python 2.x, the default encoding is ASCII. However, ASCII encoding cannot always represent non-English languages (for example, accents in French, or Asian characters), or arbitrary text input (for example, music notes). The Unicode encoding method assigns a unique number to represent each character of every language. It can be implemented by different character encodings, the more commonly used being UTF-8 and UTF-16",
+                "title": "Moving and stacking windows in  Revit",
+                "publishDate": "2015-03-13 00:00:00",
+                "thumbnailURL": "https://knowledge-dev.autodesk.com/sites/default/files/getting-started/basicTasksStructural.png",
+                "contentUrl": "https://knowledge.autodesk.com/support/3ds-max/troubleshooting/caas/sfdcarticles/sfdcarticles/MAXScript-files-exported-from-Boujou-motion-tracking-software-don-t-work-in-3ds-Max-2017-2019.html"
+            },
+            {
+                "id": 4,
+                "isInternal": true,
+                "nodeId": 160341,
+                "source": "simplecontent",
+                "caasKey": "caas/simplecontent/content/construction-coordination-understanding-clash-detection-types.html",
+                "shortDescription": "Represent non-English languages (for example, accents in French, or Asian characters), or arbitrary text input (for example, music notes). The Unicode encoding method assigns a unique number to represent each character of every language. It can be implemented by different character encodings, the more commonly used being UTF-8 and UTF-16",
+                "title": "Construction–Coordination–Understanding clash detection types",
+                "publishDate": "2015-03-13 00:00:00",
+                "thumbnailURL": "https://knowledge-dev.autodesk.com/sites/default/files/getting-started/driversManual.png",
+                "contentUrl": "https://knowledge.autodesk.com/support/3ds-max/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-3DSMax/files/GUID-555834A4-6C55-4805-8C5D-D20EE42B6BDA-htm.html"
+            },
+            {
+                "id": 5,
+                "isInternal": false,
+                "nodeId": 174881,
+                "source": "simplecontent",
+                "caasKey": "caas/simplecontent/content/building-E2-80-94collab…sh-detection-review-and-resolution-workflows.html",
+                "shortDescription": "Using Unicode In Python 2.x, the default encoding is ASCII. However, ASCII encoding cannot always represent non-English languages (for example, accents in French, or Asian characters), or arbitrary text input (for example, music notes). The Unicode encoding method assigns a unique number to represent each character of every language. It can be implemented by different character encodings, the more commonly used being UTF-8 and UTF-16",
+                "title": "Building - Collaboration - Clash detection review and resolution workflows",
+                "publishDate": "2015-03-13 00:00:00",
+                "thumbnailURL": "https://knowledge-dev.autodesk.com/sites/default/files/getting-started/keyRevitContent.png",
+                "contentUrl": "https://knowledge.autodesk.com/support/3ds-max/troubleshooting/caas/CloudHelp/cloudhelp/2016/ENU/3DSMAS-Install/files/GUID-E6AA1492-3B53-4FF4-8B36-9EF395E7FBF1-htm.html"
+            },
+            {
+                "id": 6,
+                "isInternal": true,
+                "nodeId": 185071,
+                "source": "simplecontent",
+                "caasKey": "caas/simplecontent/content/construction-E2-80-94co…it-design-models-for-construction-compliance.html",
+                "shortDescription": "Using Unicode In Python 2.x, the default encoding is ASCII. However, ASCII encoding cannot always represent non-English languages (for example, accents in French, or Asian characters), or arbitrary text input (for example, music notes). The Unicode encoding method assigns a unique number to represent each character of every language. It can be implemented by different character encodings, the more commonly used being UTF-8 and UTF-16",
+                "title": "Construction—Collaboration—How to audit design models for construction compliance",
+                "publishDate": "2015-03-13 00:00:00",
+                "contentUrl": "https://knowledge.autodesk.com/support/3ds-max/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-3DSMax/files/GUID-4B3F2CC1-C914-4CEC-9D6C-91460F18A1B2-htm.html"
+            },
+            {
+                "id": 7,
+                "isInternal": true,
+                "nodeId": 160341,
+                "source": "simplecontent",
+                "caasKey": "caas/simplecontent/content/construction-coordination-understanding-clash-detection-types.html",
+                "shortDescription": "Represent non-English languages (for example, accents in French, or Asian characters), or arbitrary text input (for example, music notes). The Unicode encoding method assigns a unique number to represent each character of every language. It can be implemented by different character encodings, the more commonly used being UTF-8 and UTF-16",
+                "title": "Construction–Coordination–Understanding clash detection types7",
+                "publishDate": "2015-03-13 00:00:00",
+                "thumbnailURL": "https://knowledge-dev.autodesk.com/sites/default/files/getting-started/quickstartgrid_testimg.png",
+                "contentUrl": "https://knowledge.autodesk.com/support/3ds-max/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-3DSMax/files/GUID-555834A4-6C55-4805-8C5D-D20EE42B6BDA-htm.html"
+            },
+            {
+                "id": 8,
+                "isInternal": false,
+                "nodeId": 174881,
+                "source": "simplecontent",
+                "caasKey": "caas/simplecontent/content/building-E2-80-94collab…sh-detection-review-and-resolution-workflows.html",
+                "shortDescription": "Using Unicode In Python 2.x, the default encoding is ASCII. However, ASCII encoding cannot always represent non-English languages (for example, accents in French, or Asian characters), or arbitrary text input (for example, music notes). The Unicode encoding method assigns a unique number to represent each character of every language. It can be implemented by different character encodings, the more commonly used being UTF-8 and UTF-16",
+                "title": "Building - Collaboration - Clash detection review and resolution workflows8",
+                "publishDate": "2015-03-13 00:00:00",
+                "thumbnailURL": "https://knowledge-dev.autodesk.com/sites/default/files/getting-started/sampleProjectFiles.png",
+                "contentUrl": "https://knowledge.autodesk.com/support/3ds-max/troubleshooting/caas/CloudHelp/cloudhelp/2016/ENU/3DSMAS-Install/files/GUID-E6AA1492-3B53-4FF4-8B36-9EF395E7FBF1-htm.html"
+            },
+            {
+                "id": 9,
+                "isInternal": true,
+                "nodeId": 185071,
+                "source": "simplecontent",
+                "caasKey": "caas/simplecontent/content/construction-E2-80-94co…it-design-models-for-construction-compliance.html",
+                "shortDescription": "Using Unicode In Python 2.x, the default encoding is ASCII. However, ASCII encoding cannot always represent non-English languages (for example, accents in French, or Asian characters), or arbitrary text input (for example, music notes). The Unicode encoding method assigns a unique number to represent each character of every language. It can be implemented by different character encodings, the more commonly used being UTF-8 and UTF-16",
+                "title": "Construction—Collaboration—How to audit design models for construction compliance9",
+                "publishDate": "2015-03-13 00:00:00",
+                "thumbnailURL": "https://knowledge-dev.autodesk.com/sites/default/files/getting-started/userInterfaceTour.png",
+                "contentUrl": "https://knowledge.autodesk.com/support/3ds-max/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-3DSMax/files/GUID-4B3F2CC1-C914-4CEC-9D6C-91460F18A1B2-htm.html"
+            }
+        ]
+    }
+}

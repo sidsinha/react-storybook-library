@@ -1,0 +1,109 @@
+.teaser__list{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    width: 100%;
+    .media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        margin: 10px;
+        background-color: #000;
+        position: relative;
+        
+        .media-img-overlay {
+            // background: url(/images/search-thumb-icons.png);
+            background: url('https://knowledge.autodesk.com/sites/all/themes/autodesk_foundation5/images/search/search-thumb-icons.png');
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            bottom: 0;
+            left: 0;
+            &.contributedlink {
+                background-position: -55px 0;
+            }
+            &.screencast {
+                background-position: -110px 0;
+            }
+            &.youtube {
+                background-position: -165px 0;
+            }
+            &.forums {
+                background-position: -220px 0;
+            }
+            &.sfdcarticles {
+                background-position: -275px 0;
+            }
+            &.auonline {
+                background-position: -330px 0;
+            }
+            &.blog {
+                background-position: -385px 0;
+            }
+            &.downloads {
+                background-position: -440px 0;
+            }
+            &.collection {
+                background-position: -495px 0;
+            }
+        }
+    }
+    .sno {
+        width: 3%;
+        text-align: center;
+        font-size: 21px;
+        color: #444;
+        font-weight: 700;
+        margin-top: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .description {
+        width: 72%;
+        display: flex;
+        margin-top: 10px;
+        .content-wrapper {
+            position: relative;
+            
+            h3{
+                margin: 0 15px 15px 0;
+                line-height: 30px;
+                display: inline-block;
+                a {
+                    color: inherit;
+                    text-decoration: none;
+                    border-bottom: 1px dashed #666 !important;
+                    &:hover {
+                        border-bottom: 1px solid #444 !important;
+                    }
+                }
+            }
+        }
+    }
+    .menu-item {
+        width: 5%;
+        display: flex;
+        justify-content: center;
+        .externalicon-list {
+            position: relative;
+            top: 15px;
+            margin-right: 10px;
+            a {
+                border-bottom: none !important;
+                &:hover {
+                    border-bottom: none !important;
+                }
+            }
+        }
+    }
+}
+
+.teaser__list:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+  
+.teaser__list:nth-child(even) {
+    background-color: #f7f7f7;
+}
