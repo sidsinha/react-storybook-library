@@ -1,4 +1,4 @@
-# @adsk/dhx-react-components
+React-components
 
 The purpose of this repository is to be the central repository for all Digital Help React Components.
 
