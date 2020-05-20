@@ -1,7 +1,7 @@
 {
-  "name": "@adsk/dh-akn-react-components",
+  "name": "react-storybook-library",
   "version": "1.32.0",
-  "description": "DPE-DHX - AKN - CONTENT VIEWER",
+  "description": "CONTENT VIEWER",
   "main": "src/index.js",
   "scripts": {
     "test": "jest --verbose --coverage",
@@ -28,10 +28,6 @@
     "precommit": "lint-staged",
     "postcommit": "git update-index --again"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://git.autodesk.com/dpe/dh-akn-react-components.git"
-  },
   "author": "sid.sinhaa@gmail.com",
   "license": "UNLICENSED",
   "peerDependencies": {
@@ -41,7 +37,6 @@
     "react-dom": "^0.14.9 || ^15.0.0 || ^16.8.0"
   },
   "dependencies": {
-    "@adsk/dhx-react-components": "0.8.0",
     "@babel/core": "^7.4.0",
     "@fortawesome/fontawesome-svg-core": "1.2.15",
     "@fortawesome/free-solid-svg-icons": "5.7.2",
@@ -69,7 +64,6 @@
     "styled-components": "^4.0.0"
   },
   "devDependencies": {
-    "@adsk/eslint-config-autodesk": "^3.0.1",
     "@babel/cli": "^7.2.3",
     "@babel/plugin-external-helpers": "^7.2.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
@@ -147,10 +141,6 @@
     "svgo": "^1.0.5",
     "svgo-loader": "^2.2.0",
     "url": "^0.11.0"
-  },
-  "publishConfig": {
-    "registry": "https://art-bobcat.autodesk.com/artifactory/api/npm/autodesk-npm/",
-    "access": "public"
   },
   "config": {
     "commitizen": {
